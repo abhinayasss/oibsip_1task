@@ -3,17 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>To-Do List</h1>
-        <input type="text" id="taskInput" placeholder="Enter task...">
-        <button id="addBtn" style="background-color: blue;">Add</button>
-        <ul id="taskList"></ul>
+    <div class="calculator">
+        <input type="text" class="display" id="display" disabled>
+        <div class="buttons">
+            <button class="clear">AC</button>
+            <button class="delete">DE</button>
+            <button class="operator">%</button>
+            <button class="operator">/</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator">*</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator">-</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator">+</button>
+            <button class="double">00</button>
+            <button>0</button>
+            <button class="double">.</button>
+            <button class="operator" id="equal">=</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
-
